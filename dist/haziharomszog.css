@@ -1,0 +1,37 @@
+body { 
+    background-color: lightgrey;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .belso-elrendezes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.belso-elrendezes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.bal-oldal {
+    flex: 1;
+}
+
+.jobb-oldal {
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 3%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jobb-oldal img {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,146 @@
+
+nav {
+    background-color: #2b1e1e;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #2b1e1e;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+}
+
+
+.hero {
+    background-image: url("/Imageschili/Új mappa/etteremkep/restaurant-710961_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.video-container {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #2b1e1e;
+    margin-top: 20px;
+    display: block;
+}
+
+footer {
+    background-color: #2b1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.table-wraper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #76530a;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2b1e1e;
+    color: #c0c0c0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e3cca4;
+
+}
+
+tbody {
+    background-color: #baa78f;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #6d6d6d;
+    color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 0 20px 40px;
+    max-width: 900px;
+    margin:  40px auto;
+    
+}
+
+h3 {
+    margin-top: 40px;
+    color: #c0c0c0;
+    border-bottom: 2px solid #2b1e1e;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 2px #444;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+

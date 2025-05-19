@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scaleÍ=1.0">
+<title>Háromszög kerülete, területe</title>
+<link rel="stylesheet" href="haziharomszog.css">
+    </head>
+    <body>
+        <h1>Háromszög kerülete, területe</h1>
+        <div class="container">
+        
+                        
+        <fieldset>
+            <legend>Adatok</legend>
+
+        <div class="belso-elrendezes">
+            <!--Bal oldal-->
+        
+        
+            <div class="bal-oldal">
+        
+            <label>a oldal (cm): <input id="aoldal" type="number" onchange="szamol()"></label><br><br>
+            <label>b oldal (cm): <input id="boldal" type="number" onchange="szamol()"></label><br><br>
+            <label>c oldal (cm): <input id="coldal" type="number" onchange="szamol()"></label><br><br>
+
+            <button type="button" onclick="alaphelyzet()">Alaphelyzet</button><br><br>
+            <button onclick="szamol()">szamol</button>
+            
+
+            <label>Kerület (cm): <input id="kerulet" readonly></label><br><br>
+
+            <label>Terület (cm2): <input id="terulet" readonly></label>
+            </div>
+        
+        <!--Jobb oldal: háromszög kép-->
+        <div class="jobb-oldal">
+        <img src="/Háromszöges feladat/kek haromszog/haromszog.jpg" alt="háromszög" width="250" style="border: 1px solid #ccc; padding: 10px;background: #fff;"></div>
+        
+        </div>
+    </fieldset>
+        <script src="haziharomszog.js">
+            
+            
+
+
+        </script>
+        
+    </body>
+</html>

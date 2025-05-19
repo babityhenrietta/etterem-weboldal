@@ -1,0 +1,32 @@
+.fejlec img img {
+  width: 150%;
+}
+.fejlec img h2 {
+  border-bottom: 1px dotted blue;
+}
+
+/*$bekezdeshatter:red;*/
+p {
+  background-color: grey;
+  color: red;
+}
+
+nav {
+  width: 30%;
+}
+nav a {
+  text-decoration: none;
+}
+nav li {
+  list-style-type: none;
+}
+nav ul {
+  background-color: lightblue;
+}
+
+.small-left {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 0 15px 15px 0;
+}
