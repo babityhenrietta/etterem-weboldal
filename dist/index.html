@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scaleÍ=1.0">
+<title>Vinum & Gourmet</title>
+<link rel="stylesheet" href="./etterem.css">
+    </head>
+    <body>
+        <!--Navigáció és logó-->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">Vinum & Gourmet</div>
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="etterem.html">Főoldal</a></li>
+                    <li><a href="etlap.html">Étlap</a></li>
+                    <li><a href="borlap.html">Borlap</a></li>
+                    <li><a href="foglalas.html">Foglalás</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        
+        <!--Hero kép-->
+        <section class="hero">
+            <h2>Üdvözöljük a Vinum & Gourmet étteremben</h2>
+            <p>Felső kategóriás gasztronómia, kiváló borok és kifinomult kiszolgálás.</p>
+        </section>
+        <!--Fő tartalom-->
+        <main>
+            <h2>Bemutatkozás</h2>
+            <p>A Vinum & Gourmet étterem az ízek és elegancia tökéletes harmóniáját kínálja. Kóstolja meg séfünk válogatott fogásait, és élvezze borkülönlegességeinket, lenyűgöző környezetben!</p>
 
+            
+            <video controls class="video-container">
+                <source src="./video.mp4.mp4" type="video/mp4">
+            </video>
+        </main>
+
+        <!--Lábjegyzet-->
+        <footer>
+            <p>&copy; 2025 Vinum & Gourmet. Minden jog fenntartva.</p>
+        </footer>
+
+
+        <script>
+             function toggleMenu() {
+                 const nav= document.getElementById("navLinks");
+                 nav.classList.toggle("show");
+}
+</script>
+</body>
+</html>
