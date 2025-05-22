@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scaleÍ=1.0">
 <title>Vinum & Gourmet</title>
 <link rel="stylesheet" href="./etterem.css">
+<link rel="stylesheet" href="./kapcsolat.css">
     </head>
     <body>
-        <body class="etterem-oldal">
+        <body class="kapcsolat-oldal">
         <!--Navigáció és logó-->
         <nav>
             <div class="nav-container">
@@ -22,24 +23,33 @@
                 </ul>
             </nav>
         
-        <!--Hero kép-->
-        <section class="hero">
-            <h2>Üdvözöljük a Vinum & Gourmet étteremben</h2>
-            <p>Felső kategóriás gasztronómia, kiváló borok és kifinomult kiszolgálás.</p>
-        </section>
-
-        <!--Fő tartalom-->
         <main>
-            <h2>Bemutatkozás</h2>
-            <p>A Vinum & Gourmet étterem az ízek és elegancia tökéletes harmóniáját kínálja. Kóstolja meg séfünk válogatott fogásait, és élvezze borkülönlegességeinket, lenyűgöző környezetben!</p>
+            <h2>Kapcsolat</h2>
+            <p>Keressen minket az alábbi elérhetőségeken vagy írjon üzenetet:</p>
 
-            
-            <video controls class="video-container">
-                <source src="../dist/video.mp4.mp4" type="video/mp4">
-            </video>
+            <section class="contact-info">
+                <p><strong>Cím: </strong>1051 Budapest, Gourmet u. 5.</p>
+                <p><strong>Telefon: </strong>+36 1 234 5678</p>
+                <p><strong>E-mail: </strong> info@vinumgourmet.hu</p>
+            </section>
+
+            <section class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Név: </label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Üzenet: </label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Küldés</button>
+
+                </form>
+            </section>
         </main>
 
-        <!--Lábjegyzet-->
         <footer>
             <p>&copy; 2025 Vinum & Gourmet. Minden jog fenntartva.</p>
         </footer>
@@ -51,5 +61,6 @@
                  nav.classList.toggle("show");
 }
 </script>
-</body>
+    </body>
 </html>
+

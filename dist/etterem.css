@@ -58,7 +58,7 @@ nav {
 
 
 .hero {
-    background-image: url("/Imageschili/Új mappa/etteremkep/restaurant-710961_1280.jpg");
+    background-image: url("restaurant-710961_1280.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -120,7 +120,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Georgia', serif;
-    background-color: #6d6d6d;
+    /*background-color: #6d6d6d;*/
     color: #2c2c2c;
     display: flex;
     flex-direction: column;
@@ -142,5 +142,9 @@ h3 {
     text-shadow: 1px 1px 2px #444;
     font-weight: bold;
     letter-spacing: 0.5px;
+}
+
+body.etterem-oldal {
+    background-color: hwb(0 42% 58%);
 }
 
