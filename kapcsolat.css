@@ -87,6 +87,11 @@ button:hover {
     text-align: left;
 }
 
+.contact-form input, .contact-form texterea {
+    border-radius: 5px !important;
+}
+    
+
 form label {
     color: black;
     font-weight: bold;
