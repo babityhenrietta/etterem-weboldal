@@ -10,7 +10,7 @@ body.kapcsolat-oldal {
 }
 
 section {
-    background-color: none;
+    background-color: transparent;
     box-shadow: none;
     padding: 20px;
     margin: 40px auto;
