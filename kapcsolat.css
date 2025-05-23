@@ -1,3 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 body.kapcsolat-oldal {
     background-image: url("kapcsolatkep.jpg");
     background-size: cover;
@@ -72,7 +79,7 @@ button:hover {
 }
 
 .contact-form {
-    background-color: #706039;
+    background-color: transparent;
     padding: 20px;
     margin: 60px auto 40px 60px;
     border-radius: 12px;
