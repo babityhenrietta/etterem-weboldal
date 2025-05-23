@@ -1,0 +1,88 @@
+body.kapcsolat-oldal {
+    background-image: url('/Imageschili/kapcsolatkep.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+
+}
+
+section {
+    background-color: none;
+    box-shadow: none;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    color: darkgray;
+}
+
+h2, p {
+    color: darkgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    max-width: 280px;
+    padding: 5px;
+    margin: 20px auto;
+    background-color:#706039;
+    border-radius: 5px;
+    color: #fff;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding:7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    background-color: #eee7d5;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    width: fit-content;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgb(154, 154, 116);
+    color: black;
+    border: 3px solid hsl(0, 9%, 29%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:#ca9611;
+}
+
+.contact-form {
+    background-color: #706039;
+    padding: 20px;
+    margin: 60px auto 40px 60px;
+    border-radius: 12px;
+    max-width: 400px;
+    text-align: left;
+}
+
+form label {
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
