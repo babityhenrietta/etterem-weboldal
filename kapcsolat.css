@@ -6,11 +6,11 @@ body.kapcsolat-oldal {
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    min-height: 100vh;
 
 }
 
 section {
-    background-color: transparent;
     box-shadow: none;
     padding: 20px;
     margin: 40px auto;
