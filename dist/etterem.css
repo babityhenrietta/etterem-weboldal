@@ -1,4 +1,3 @@
-
 nav {
     background-color: #2b1e1e;
     color: white;
@@ -93,6 +92,8 @@ table {
     min-width: 600px;
     border-collapse: collapse;
     margin-top: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
 }
 
 th, td {
@@ -113,6 +114,23 @@ tbody tr:nth-child(even) {
 
 tbody {
     background-color: #baa78f;
+    border-radius: 8px;
+}
+
+.table-wraper {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #2c2c2c;
 }
 
 html, body {
@@ -147,4 +165,136 @@ h3 {
 body.etterem-oldal {
     background-color: hwb(0 42% 58%);
 }
+
+body.etlap-oldal {
+    background-image: url('../Imageschili/arany hatterkep/kristaly csillar/chandelier-234640_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
+    position: relative;
+    z-index: 1;
+}
+    
+
+
+
+@keyframes sparkle {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.etlap-kepek {
+    display: flex;
+    justify-content:center;
+    margin: 20px 0; 
+    gap: 15px;
+    padding: 20px 0;
+    border: #2c2c2c;
+}
+
+.etlap-kepek img {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    border: #2c2c2c;
+    border-width: medium;
+    border: 3px solid black;
+}
+
+.etlap-tartalom {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.etlap-oldal-kepek, 
+.etlap-jobb-kepek {
+    flex-shrink: 0;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    
+}
+
+.etlap-jobb {
+    flex: 1;
+    min-width: 0;
+}
+
+.etlap-oldal-kepek img
+.etlap-jobb-kepek img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    object-fit: cover;
+    display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+    .etlap-tartalom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .etlap-oldal-kepek,
+    .etlap-jobb-kepek {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.etlap-oldal-kepek img, .etlap-jobb-kepek img {
+    border-radius: 8px;
+    border: 3px solid black;
+}
+    
+.desszert-kepek {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.desszert-kepek img {
+    width: 210px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    border: 3px solid black;
+}
+
+
+.etlap-hatter-vilagosito {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.etlap-oldal {
+    position: relative;
+    z-index: 5;
+}
+
+
+
+
 
