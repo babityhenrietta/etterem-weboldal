@@ -167,7 +167,7 @@ body.etterem-oldal {
 }
 
 body.etlap-oldal {
-    background-image: url('../Imageschili/arany hatterkep/kristaly csillar/chandelier-234640_1280.jpg');
+    background-image: url("chandelier-234640_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
