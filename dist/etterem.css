@@ -145,6 +145,7 @@ html, body {
 }
 
 main {
+    background-color:#444;
     flex: 1;
     padding: 0 20px 40px;
     max-width: 900px;
