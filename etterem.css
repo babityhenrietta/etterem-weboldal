@@ -85,6 +85,7 @@ footer {
     
 }
 
+
 .table-wraper {
     overflow-x: auto;
 }
@@ -119,15 +120,19 @@ tbody {
     border-radius: 8px;
 }
 
+
+main, 
 .table-wraper {
-    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 8px;
+    overflow: hidden;
+
 }
 
 table th, table td {
@@ -144,9 +149,11 @@ html, body {
     color: #2c2c2c;
     display: flex;
     flex-direction: column;
+    background-color: #444;
 }
 
 main {
+    background-color: #444;
     flex: 1;
     padding: 0 20px 40px;
     max-width: 900px;
@@ -164,9 +171,6 @@ h3 {
     letter-spacing: 0.5px;
 }
 
-body.etterem-oldal {
-    background-color: hwb(0 42% 58%);
-}
 
 body.etlap-oldal {
     background-image: url("chandelier-234640_1280.jpg");
