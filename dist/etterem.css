@@ -142,6 +142,7 @@ html, body {
     color: #2c2c2c;
     display: flex;
     flex-direction: column;
+    background-color:#444;
 }
 
 main {
