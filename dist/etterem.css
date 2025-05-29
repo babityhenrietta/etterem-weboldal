@@ -1,3 +1,4 @@
+
 nav {
     background-color: #2b1e1e;
     color: white;
@@ -57,6 +58,7 @@ nav {
 
 
 .hero {
+    background-color: #999999;
     background-image: url("restaurant-710961_1280.jpg");
     background-size: cover;
     background-position: center;
@@ -83,6 +85,7 @@ footer {
     
 }
 
+
 .table-wraper {
     overflow-x: auto;
 }
@@ -94,6 +97,7 @@ table {
     margin-top: 30px;
     border: 3px solid black;
     border-radius: 8px;
+    display: block;
 }
 
 th, td {
@@ -117,15 +121,21 @@ tbody {
     border-radius: 8px;
 }
 
+
+main, 
 .table-wraper {
-    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 8px;
+    overflow: hidden;
     width: 100%;
-    border-collapse: collapse;
+    display: block;
+
 }
 
 table th, table td {
@@ -142,11 +152,11 @@ html, body {
     color: #2c2c2c;
     display: flex;
     flex-direction: column;
-    background-color:#444;
+    background-color: #444;
 }
 
 main {
-    background-color:#444;
+    background-color: #444;
     flex: 1;
     padding: 0 20px 40px;
     max-width: 900px;
@@ -163,6 +173,7 @@ h3 {
     font-weight: bold;
     letter-spacing: 0.5px;
 }
+
 
 body.etlap-oldal {
     background-image: url("chandelier-234640_1280.jpg");
@@ -190,20 +201,25 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
 
 .etlap-kepek {
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     margin: 20px 0; 
     gap: 15px;
     padding: 20px 0;
     border: #2c2c2c;
+    max-width: 100%;
 }
 
 .etlap-kepek img {
-    width: 250px;
+    width: 150px;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     border: #2c2c2c;
     border-width: medium;
     border: 3px solid black;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .etlap-tartalom {
@@ -212,6 +228,7 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
     align-items: flex-start;
     padding: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -243,23 +260,26 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .etlap-tartalom {
         flex-direction: column;
         align-items: center;
     }
     .etlap-oldal-kepek,
-    .etlap-jobb-kepek {
+    .etlap-jobb-kepek, 
+    .etlap-kepek img {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
+        max-width: 90%;
     }
 }
 
 .etlap-oldal-kepek img, .etlap-jobb-kepek img {
     border-radius: 8px;
     border: 3px solid black;
+    max-width: 100%;
+    display: block;
 }
     
 .desszert-kepek {
@@ -276,6 +296,8 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     border: 3px solid black;
+    max-width: 100%;
+    display: block;
 }
 
 
@@ -292,6 +314,12 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
     z-index: 5;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
 
 
 
