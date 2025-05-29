@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a28742;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(rgb(15, 13, 13), rgb(60, 65, 60), rgb(114, 98, 52), alpha);
+}
+
+h2 {
+    text-align: center;
+    color:black;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"],
+form texterea {
+    width:100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+ button {
+    margin-top: 20px;
+    background-color: bisque;
+    color: black;
+    padding: 12px 24px;
+    border: 3px solid hsla(34, 81%, 19%, 0.84);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+ }
+
+ button:hover {
+    background-color: #837351;
+ }
+
+ body.foglalas-oldal {
+background-image: url("../Imageschili/arany hatterkep/kristaly-csillar/chandelier-234640_1280.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+ }
+
+ 
