@@ -124,13 +124,15 @@ tbody {
 
 main, 
 .table-wraper {
+    width: 100%;
+    overflow-x: auto;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 table {
     border-spacing: 0;
-    border-collapse: separate;
+    border-collapse: collapse;
     border-radius: 8px;
     overflow: hidden;
     width: 100%;
@@ -260,7 +262,7 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
     .etlap-tartalom {
         flex-direction: column;
         align-items: center;
@@ -271,7 +273,17 @@ body.etlap-oldal> *:not(.etlap-hatter-vilagosito) {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        max-width: 90%;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .etlap-kepek {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -329,6 +341,11 @@ strong {
     color: black;
 }
 
+@media (max-width:350px) {
+    table {
+        font-size: 14px;
+    }
+}
 
 
 

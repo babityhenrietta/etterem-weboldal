@@ -22,3 +22,28 @@ html, body {
     min-height: 100%;
     overflow-x: hidden;
 }
+
+
+.table-wraper {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    @media screen and  (max-width: 350px) {
+        .table-wraper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        table {
+            width: 100%;
+            font-size: 14px;
+            border-collapse: collapse;
+        
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+    }
