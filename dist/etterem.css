@@ -123,8 +123,10 @@ tbody {
 
 
 main, 
-.table-wraper {
+.table-wraper table {
     width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
     overflow-x: auto;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
@@ -343,6 +345,12 @@ strong {
 
 @media (max-width:350px) {
     table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:350px) {
+    .table-wraper table{
         font-size: 14px;
     }
 }
