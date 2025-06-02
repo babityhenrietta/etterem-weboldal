@@ -324,6 +324,11 @@ p {
     color: black;
 }
 
+strong {
+    font-weight: bold;
+    color: black;
+}
+
 
 
 
